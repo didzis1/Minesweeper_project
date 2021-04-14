@@ -10,8 +10,8 @@ from Board import Board
 
 def play():
     visual_line = "----------------------------------"
-    board_size = 3
-    bomb_size = 1
+    board_size = 10
+    bomb_size = 10
     # Create the Minesweeper game with specified board size and the amount of bombs
     minesweeper = Board(board_size, bomb_size)
     # Create the board and fill it with bombs
