@@ -8,3 +8,5 @@ Game can be started in your terminal.
 ```
 py minesweeper_game.py
 ```
+
+Bomb and board size can be adjusted by changing the variables in the play function located in minesweeper_game.py file.
