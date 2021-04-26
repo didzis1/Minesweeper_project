@@ -13,7 +13,7 @@ class Board():
         self.free_spots = board_size * board_size - bomb_size
         self.board = self.create_the_board()  # Create the Minesweeper board
         self.pass_values_to_cells()  # Assign values to each Cell class
-        self.revealed_squares = set()  # For later use {(row, col)}
+        self.revealed_squares = set()  # Keep track of revealed squares
 
     def create_the_board(self):
         # Each bomb/empty cell is determined by Cell class
